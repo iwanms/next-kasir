@@ -24,5 +24,6 @@ bcrypt : npm install bcrypt
 	bisa di gunakan untuk hashing password di file manapun dibutuhkan
 
 register : pages/api/user/register.ts
-	
+
+sass : npm i sass
 
