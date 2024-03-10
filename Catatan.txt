@@ -1,5 +1,28 @@
 [2024/03/10]
 install : npx create-next-app@14.0.3
 jest (for testing) : npm install --save-dev jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom
+
 husky : npm i -D husky lint-staged
 	npx husky install
+	create file : .lintstagedrc.json
+	setting file ./husky/_/pre_commit
+
+firebase : npm install firebase
+	src/lib/firebase/init.ts (firebase config ambil dari website firebase/setting/general)
+	create file ".env.local"
+	FIREBASE_API_KEY=
+	FIREBASE_AUTH_DOMAIN=
+	FIREBASE_PREJECT_ID=
+	FIREBASE_STORAGE_BUCKET=
+	FIREBASE_MESSAGING_SENDER_ID=
+	FIREBASE_APP_ID=
+	
+	create file src/lib/firebase/service.ts (semacam model)
+
+bcrypt : npm install bcrypt
+	npm i --save-dev @types/bcrypt
+	bisa di gunakan untuk hashing password di file manapun dibutuhkan
+
+register : pages/api/user/register.ts
+	
+
