@@ -1,3 +1,5 @@
-2024/03/10
+[2024/03/10]
 install : npx create-next-app@14.0.3
 jest (for testing) : npm install --save-dev jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom
+husky : npm i -D husky lint-staged
+	npx husky install
