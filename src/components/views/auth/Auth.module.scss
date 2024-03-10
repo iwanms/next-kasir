@@ -5,12 +5,16 @@
   flex-direction: column;
   height: 100vh;
   width: 100vw;
+  &__error {
+    color: #fd3131;
+    margin-bottom: 10px;
+  }
   &__title {
     font-size: 32px;
     margin-bottom: 10px;
   }
   &__form {
-    width: 25%;
+    width: 30%;
     padding: 20px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
